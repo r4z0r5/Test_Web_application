@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet("/s")
+@WebServlet("/sign_in")
 public class Servlet extends HttpServlet {
 
     @Override
