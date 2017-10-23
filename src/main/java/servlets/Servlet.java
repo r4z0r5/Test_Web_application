@@ -23,6 +23,7 @@ public class Servlet extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
 
-        out.println("Hello Word");
+        out.println("Hello Word<br>");
+        out.println("What the fuck is this shit?");
     }
 }
